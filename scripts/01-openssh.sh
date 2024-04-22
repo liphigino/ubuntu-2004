@@ -59,7 +59,7 @@
 #		Enter file in which to save the key (/home/vaamonde/.ssh/id_rsa): /home/vaamonde/.ssh/vaamonde <Enter>
 #		Enter passphrase (empty for no passphrase): <Enter>
 #		Enter same passphrase again: <Enter>
-#	ssh-copy-id vaamonde@172.16.1.20
+#	ssh-copy-id felipe@192.168.0.20
 #
 # Importando os pares de chaves Públicas/Privadas utilizando o Powershell
 # Windows Powershell: Menu, Powershell 
