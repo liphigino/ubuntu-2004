@@ -27,7 +27,7 @@
 
 $ORIGIN pti.intra.
 $TTL 3600 ; 1 hour
-@		IN		SOA		ptispo01ws01.pti.intra. vaamonde.pti.intra. (
+@		IN		SOA		higinoserver.pti.intra. vaamonde.pti.intra. (
 				1 ; serial
 				604800 ; refresh (1 week)
 				86400 ; retry (1 day)
@@ -35,41 +35,41 @@ $TTL 3600 ; 1 hour
 				604800 ; minimum (1 week)
 				)
 ;
-@               IN 		NS		ptispo01ws01.pti.intra.
+@               IN 		NS		higinoserver.pti.intra.
 @               IN 		MX		10 mail
 @               IN		TXT		"v=spf1 a mx -all"
 ;
-pti.intra.      IN 		A 		172.16.1.20
-ptispo01ws01    IN 		A		172.16.1.20
-ptispo01fw01    IN 		A		172.16.1.254
-mail            IN 		A 		172.16.1.20
+pti.intra.      IN 		A 		192.168.0.20
+ptispo01ws01    IN 		A		192.168.0.20
+ptispo01fw01    IN 		A		192.168.0.2
+mail            IN 		A 		192.168.0.20
 ;
-cloud           IN		CNAME	ptispo01ws01
-ftp             IN		CNAME	ptispo01ws01
-grafana         IN		CNAME	ptispo01ws01
-glpi9           IN		CNAME	ptispo01ws01
-glpi10          IN		CNAME	ptispo01ws01
-helpdesk        IN		CNAME	ptispo01ws01
-imap4           IN		CNAME	ptispo01ws01
-imap            IN		CNAME	ptispo01ws01
-loganalyzer     IN		CNAME	ptispo01ws01
-log             IN		CNAME	ptispo01ws01
-mysql           IN		CNAME	ptispo01ws01
-netdata         IN		CNAME	ptispo01ws01
-next            IN		CNAME	ptispo01ws01
-nfs             IN		CNAME	ptispo01ws01
-ntp             IN		CNAME	ptispo01ws01
-own             IN		CNAME	ptispo01ws01
-pop3            IN		CNAME	ptispo01ws01
-portal          IN		CNAME	ptispo01ws01
-pxe             IN		CNAME	ptispo01ws01
-smtp            IN		CNAME	ptispo01ws01
-ssh             IN		CNAME	ptispo01ws01
-suporte         IN		CNAME	ptispo01ws01
-tftp            IN		CNAME	ptispo01ws01
-webdav          IN		CNAME	ptispo01ws01
-wpad            IN		CNAME	ptispo01ws01
-wp              IN		CNAME	ptispo01ws01
-www             IN		CNAME	ptispo01ws01
-zm              IN		CNAME	ptispo01ws01
+cloud           IN		CNAME	higinoserver
+ftp             IN		CNAME	higinoserver
+grafana         IN		CNAME	higinoserver
+glpi9           IN		CNAME	higinoserver
+glpi10          IN		CNAME	higinoserver
+helpdesk        IN		CNAME	higinoserver
+imap4           IN		CNAME	higinoserver
+imap            IN		CNAME	higinoserver
+loganalyzer     IN		CNAME	higinoserver
+log             IN		CNAME	higinoserver
+mysql           IN		CNAME	higinoserver
+netdata         IN		CNAME	higinoserver
+next            IN		CNAME	higinoserver
+nfs             IN		CNAME	higinoserver
+ntp             IN		CNAME	higinoserver
+own             IN		CNAME	higinoserver
+pop3            IN		CNAME	higinoserver
+portal          IN		CNAME	higinoserver
+pxe             IN		CNAME	higinoserver
+smtp            IN		CNAME	higinoserver
+ssh             IN		CNAME	higinoserver
+suporte         IN		CNAME	higinoserver
+tftp            IN		CNAME	higinoserver
+webdav          IN		CNAME	higinoserver
+wpad            IN		CNAME	higinoserver
+wp              IN		CNAME	higinoserver
+www             IN		CNAME	higinoserver
+zm              IN		CNAME	higinoserver
 
