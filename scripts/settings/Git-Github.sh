@@ -24,10 +24,10 @@ sudo apt update && sudo apt install git vim python
 
 #Configuração do Git Localmente
 	#Seu nome completo que vai ser utilizado em qualquer commit (confirmação) recém-criado.
-	git config --global user.name "Robson Vaamonde"
+	git config --global user.name "Felipe Higino"
 	
 	#Seu endereço de e-mail que vai ser utilizado em qualquer commit (confirmação) recém-criado.
-	git config --global user.email robsonvaamonde@gmail.com
+	git config --global user.email higino@ufjs.edu.br
 	
 	#Seu editor de texto padrão para todos os commit (confirmação) e tags.
 	git config --global core.editor vim
