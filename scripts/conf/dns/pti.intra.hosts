@@ -40,8 +40,8 @@ $TTL 3600 ; 1 hour
 @               IN		TXT		"v=spf1 a mx -all"
 ;
 pti.intra.      IN 		A 		192.168.0.20
-ptispo01ws01    IN 		A		192.168.0.20
-ptispo01fw01    IN 		A		192.168.0.2
+higinoserver    IN 		A		192.168.0.20
+higinoserver    IN 		A		192.168.0.2
 mail            IN 		A 		192.168.0.20
 ;
 cloud           IN		CNAME	higinoserver
