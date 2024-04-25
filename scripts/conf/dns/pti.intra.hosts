@@ -21,13 +21,13 @@
 ; 	86400 = tempo de atualizações caso o refresh falhe retenção 1 (um) dia
 ; 	2419200 = tempo de expiração do slave caso não se contate com o master expiração 4 (quatro) semanas
 ; 	604800 = tempo de vida das repostas negativas do servidor mínimo retenção de 1 (uma) semana
-; @ IN 	NS	ptispo01ws01.pti.intra. = configuração do Name Server (Nome do Servidor) do domínio.
+; @ IN 	NS	higinoserver.pti.intra. = configuração do Name Server (Nome do Servidor) do domínio.
 ; @ IN 	MX	10 mail = configuração do Mail Exchanger (registros de troca de e-mail) do domínio
 ; @ IN	TXT	"v=spf1 a mx -all" = registro de Texto com informações do SPF (Sender Policy Framework)
 
 $ORIGIN pti.intra.
 $TTL 3600 ; 1 hour
-@		IN		SOA		higinoserver.pti.intra. vaamonde.pti.intra. (
+@		IN		SOA		higinoserver.pti.intra. felipe.pti.intra. (
 				1 ; serial
 				604800 ; refresh (1 week)
 				86400 ; retry (1 day)
