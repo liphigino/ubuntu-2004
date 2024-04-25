@@ -69,7 +69,7 @@
 # <Create a New Project>
 #	Create a new Project
 #		Detail
-#			Project Name: ptispo01ws01
+#			Project Name: higinoserver
 #			Label: WebServer
 #			Description: Servidor Ubuntu Server
 #	<Criar>
