@@ -25,7 +25,7 @@ options {
 	// Padrão do encaminhamento é enviar as consultas para o servidor de Firewall pfSense
 	forwarders {
 		192.168.0.2;
-		//8.8.8.8;
+		//192.168.0.2
 		//8.8.4.4;
 	};
 
